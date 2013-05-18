@@ -1,0 +1,8 @@
+Micromouse2 Schematic notes
+
+MBED PINOUT
+
+P26 - A1 Motor1 PWM/LOGIC
+P25 - A2 Motor1 PWN/LOGIC
+P24 - B1 Motor2 PWM/LOGIC
+P23 - B2 Motor2 PWM/LOGIC
