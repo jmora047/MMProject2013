@@ -3272,6 +3272,8 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C5" library="adafruit" deviceset="C-US" device="C0805" value=".33uF"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="P+7" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3281,7 +3283,7 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <instance part="IC1" gate="G$1" x="27.94" y="81.28"/>
 <instance part="C1" gate="G$1" x="55.88" y="106.68"/>
 <instance part="C2" gate="G$1" x="58.42" y="63.5"/>
-<instance part="JP1" gate="A" x="-35.56" y="66.04" rot="R180"/>
+<instance part="JP1" gate="A" x="-43.18" y="66.04" rot="R180"/>
 <instance part="JP2" gate="A" x="109.22" y="66.04"/>
 <instance part="JP3" gate="A" x="2.54" y="147.32" rot="MR90"/>
 <instance part="JP4" gate="A" x="66.04" y="147.32" rot="MR90"/>
@@ -3301,6 +3303,8 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <instance part="P+6" gate="VCC" x="35.56" y="170.18"/>
 <instance part="C3" gate="G$1" x="27.94" y="137.16"/>
 <instance part="C5" gate="G$1" x="22.86" y="160.02"/>
+<instance part="GND7" gate="1" x="-17.78" y="58.42"/>
+<instance part="P+7" gate="VCC" x="-25.4" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -3345,6 +3349,12 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <wire x1="27.94" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
 <junction x="22.86" y="132.08"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="20"/>
+<wire x1="-40.64" y1="91.44" x2="-17.78" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="91.44" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -3371,6 +3381,12 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <wire x1="22.86" y1="162.56" x2="22.86" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
 <junction x="35.56" y="165.1"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="19"/>
+<wire x1="-40.64" y1="88.9" x2="-25.4" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="88.9" x2="-25.4" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3499,6 +3515,32 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <wire x1="76.2" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="1"/>
 <wire x1="68.58" y1="137.16" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TICK2" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="11"/>
+<wire x1="-40.64" y1="68.58" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
+<label x="-27.94" y="68.58" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="5"/>
+<wire x1="63.5" y1="144.78" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="139.7" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
+<label x="55.88" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="TICK1" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="12"/>
+<wire x1="-40.64" y1="71.12" x2="-35.56" y2="71.12" width="0.1524" layer="91"/>
+<label x="-35.56" y="71.12" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="5"/>
+<wire x1="0" y1="144.78" x2="0" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="0" y1="137.16" x2="-20.32" y2="137.16" width="0.1524" layer="91"/>
+<label x="-20.32" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
