@@ -1,4 +1,4 @@
-enum FL_States {FL_IDLE, FL_POP, FL_PUSHADJ, FL_GETFACE};
+enum FL_States {FL_IDLE, FL_POP, FL_PUSHADJ, FL_GETFACE} FL_State;
 //FL_Tck - 		controls the mapping of the maze for the first run. Also 
 //				determines the direction of the next cell. 
 //Writes To -	mapready_ack
