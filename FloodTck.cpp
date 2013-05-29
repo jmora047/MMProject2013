@@ -10,7 +10,7 @@ enum FL_States {FL_IDLE, FL_POP, FL_PUSHADJ, FL_GETFACE} FL_State;
 //				fl_stack_size
 //Complete? []
 //Tested? []
-int FL_tck(int state) {
+	
 	switch (state) {		//transitions
 		case -1:
 			state = FL_IDLE;

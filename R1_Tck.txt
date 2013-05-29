@@ -1,0 +1,14 @@
+
+enum R1_States{R1_IDLE, R1_INITIALIZE, R1_FLOOD, R1_FORWARD, R1_TURN}
+
+int R1_Tck(int state){
+	switch (state) {
+	
+	
+		default:
+			state = R1_IDLE
+	}
+
+
+	return state;
+}
