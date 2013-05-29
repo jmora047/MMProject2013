@@ -20,11 +20,11 @@ enum FL_States {FL_IDLE, FL_POP, FL_PUSHADJ, FL_GETFACE} FL_State;
 			if(!mapready_req)
 				state = FL_IDLE;
 			else if(mapready_req && cell_check(mouse_x, mouse_y)){	//If cell is 1+ min open neighbors get facing
-				mapready_ack = 1;
+				//mapready_ack = 1;
 				state = FL_GETFACE;
 			}
 			else if(mapready_req && !cell_check(mouse_x, mouse_y)){
-				mapready_ack = true;
+				//mapready_ack = true;
 				fl_stack_size = 0;
 				static uint8_t x_ind = mouse_x;
 				static uint8_t y_ind = mouse_y;
@@ -49,6 +49,7 @@ enum FL_States {FL_IDLE, FL_POP, FL_PUSHADJ, FL_GETFACE} FL_State;
 			break;	
 			
 		case FL_GETFACE;	//Tell the mouse where to face next
+			mapready_ack = 1;
 			state = FL_IDLE;
 			break;
 			
