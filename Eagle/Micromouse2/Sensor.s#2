@@ -3674,32 +3674,32 @@ Big oval pads</description>
 </class>
 </classes>
 <parts>
-<part name="LFRE" library="adafruit" deviceset="R-US_" device="R0805"/>
-<part name="LFRT" library="adafruit" deviceset="R-US_" device="R0805"/>
-<part name="RFRE" library="adafruit" deviceset="R-US_" device="R0805"/>
-<part name="RFRT" library="adafruit" deviceset="R-US_" device="R0805"/>
-<part name="LSE" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="RFE" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="RSE" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="RFT" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="LFT" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="LST" library="adafruit" deviceset="LED" device="5MM"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="LED2" library="adafruit" deviceset="LED" device="5MM"/>
+<part name="LED3" library="adafruit" deviceset="LED" device="5MM"/>
+<part name="LED4" library="adafruit" deviceset="LED" device="5MM"/>
+<part name="LED5" library="adafruit" deviceset="LED" device="5MM"/>
+<part name="LED6" library="adafruit" deviceset="LED" device="5MM"/>
+<part name="LED8" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="LSRE" library="adafruit" deviceset="R-US_" device="R0805"/>
-<part name="LSRT" library="adafruit" deviceset="R-US_" device="R0805"/>
-<part name="RSRE" library="adafruit" deviceset="R-US_" device="R0805"/>
-<part name="RSRT" library="adafruit" deviceset="R-US_" device="R0805"/>
-<part name="RST" library="adafruit" deviceset="LED" device="5MM"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="LED9" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="LFE" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="FBJT" library="adafruit" deviceset="2N2222" device=""/>
-<part name="SBJT" library="adafruit" deviceset="2N2222" device=""/>
+<part name="LED7" library="adafruit" deviceset="LED" device="5MM"/>
+<part name="T1" library="adafruit" deviceset="2N2222" device=""/>
+<part name="T4" library="adafruit" deviceset="2N2222" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="FBJTR" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0805"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="SBJTR" library="adafruit" deviceset="R-US_" device="R0805"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0805"/>
 <part name="JP1" library="adafruit" deviceset="PINHD-2X4" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -3709,32 +3709,32 @@ Big oval pads</description>
 <plain>
 </plain>
 <instances>
-<instance part="LFRE" gate="G$1" x="-101.6" y="106.68" rot="R90"/>
-<instance part="LFRT" gate="G$1" x="-88.9" y="106.68" rot="R90"/>
-<instance part="RFRE" gate="G$1" x="-53.34" y="104.14" rot="R90"/>
-<instance part="RFRT" gate="G$1" x="-35.56" y="104.14" rot="R90"/>
-<instance part="LSE" gate="G$1" x="-93.98" y="-20.32"/>
-<instance part="RFE" gate="G$1" x="-53.34" y="86.36"/>
-<instance part="RSE" gate="G$1" x="-48.26" y="-17.78"/>
-<instance part="RFT" gate="G$1" x="-35.56" y="83.82" rot="R180"/>
-<instance part="LFT" gate="G$1" x="-88.9" y="83.82" rot="R180"/>
-<instance part="LST" gate="G$1" x="-78.74" y="-22.86" rot="R180"/>
+<instance part="R3" gate="G$1" x="-101.6" y="106.68" rot="R90"/>
+<instance part="R4" gate="G$1" x="-88.9" y="106.68" rot="R90"/>
+<instance part="R7" gate="G$1" x="-53.34" y="104.14" rot="R90"/>
+<instance part="R8" gate="G$1" x="-35.56" y="104.14" rot="R90"/>
+<instance part="LED2" gate="G$1" x="-93.98" y="-20.32"/>
+<instance part="LED3" gate="G$1" x="-53.34" y="86.36"/>
+<instance part="LED4" gate="G$1" x="-48.26" y="-17.78"/>
+<instance part="LED5" gate="G$1" x="-35.56" y="83.82" rot="R180"/>
+<instance part="LED6" gate="G$1" x="-88.9" y="83.82" rot="R180"/>
+<instance part="LED8" gate="G$1" x="-78.74" y="-22.86" rot="R180"/>
 <instance part="P+1" gate="VCC" x="-101.6" y="121.92"/>
 <instance part="P+2" gate="VCC" x="-53.34" y="116.84"/>
-<instance part="LSRE" gate="G$1" x="-93.98" y="-5.08" rot="R90"/>
-<instance part="LSRT" gate="G$1" x="-78.74" y="-5.08" rot="R90"/>
-<instance part="RSRE" gate="G$1" x="-48.26" y="-2.54" rot="R90"/>
-<instance part="RSRT" gate="G$1" x="-30.48" y="-2.54" rot="R90"/>
-<instance part="RST" gate="G$1" x="-30.48" y="-20.32" rot="R180"/>
+<instance part="R9" gate="G$1" x="-93.98" y="-5.08" rot="R90"/>
+<instance part="R10" gate="G$1" x="-78.74" y="-5.08" rot="R90"/>
+<instance part="R11" gate="G$1" x="-48.26" y="-2.54" rot="R90"/>
+<instance part="R12" gate="G$1" x="-30.48" y="-2.54" rot="R90"/>
+<instance part="LED9" gate="G$1" x="-30.48" y="-20.32" rot="R180"/>
 <instance part="P+3" gate="VCC" x="-93.98" y="10.16"/>
 <instance part="P+4" gate="VCC" x="-48.26" y="17.78"/>
-<instance part="LFE" gate="G$1" x="-101.6" y="86.36"/>
-<instance part="FBJT" gate="G$1" x="-99.06" y="68.58"/>
-<instance part="SBJT" gate="G$1" x="-96.52" y="-40.64"/>
+<instance part="LED7" gate="G$1" x="-101.6" y="86.36"/>
+<instance part="T1" gate="G$1" x="-99.06" y="68.58"/>
+<instance part="T4" gate="G$1" x="-96.52" y="-40.64"/>
 <instance part="GND1" gate="1" x="-96.52" y="55.88"/>
-<instance part="FBJTR" gate="G$1" x="-114.3" y="68.58"/>
+<instance part="R1" gate="G$1" x="-114.3" y="68.58"/>
 <instance part="GND2" gate="1" x="-93.98" y="-53.34"/>
-<instance part="SBJTR" gate="G$1" x="-114.3" y="-40.64"/>
+<instance part="R2" gate="G$1" x="-114.3" y="-40.64"/>
 <instance part="JP1" gate="A" x="2.54" y="76.2" rot="R270"/>
 <instance part="P+5" gate="VCC" x="7.62" y="114.3"/>
 <instance part="GND4" gate="1" x="0" y="58.42"/>
@@ -3744,12 +3744,12 @@ Big oval pads</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="FBJT" gate="G$1" pin="E"/>
+<pinref part="T1" gate="G$1" pin="E"/>
 <wire x1="-96.52" y1="63.5" x2="-96.52" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SBJT" gate="G$1" pin="E"/>
+<pinref part="T4" gate="G$1" pin="E"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="-93.98" y1="-45.72" x2="-93.98" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
@@ -3761,16 +3761,16 @@ Big oval pads</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="LSE" gate="G$1" pin="A"/>
-<pinref part="LSRE" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="-93.98" y1="-17.78" x2="-93.98" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="RSRE" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="-48.26" y1="-17.78" x2="-48.26" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="RSE" gate="G$1" pin="A"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="-48.26" y1="-15.24" x2="-48.26" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-48.26" y="-15.24"/>
 </segment>
@@ -3778,28 +3778,28 @@ Big oval pads</description>
 <net name="VCC" class="0">
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<pinref part="LFRE" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="119.38" x2="-101.6" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="LFRT" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="114.3" x2="-101.6" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="114.3" x2="-88.9" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="114.3" x2="-88.9" y2="111.76" width="0.1524" layer="91"/>
 <junction x="-101.6" y="114.3"/>
 </segment>
 <segment>
-<pinref part="RSRE" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="-48.26" y1="2.54" x2="-48.26" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="RSRT" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="-48.26" y1="5.08" x2="-48.26" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="5.08" x2="-30.48" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="5.08" x2="-30.48" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-48.26" y="5.08"/>
 </segment>
 <segment>
-<pinref part="LSRT" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="-78.74" y1="0" x2="-78.74" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="LSRE" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="-78.74" y1="2.54" x2="-93.98" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="2.54" x2="-93.98" y2="0" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
@@ -3807,10 +3807,10 @@ Big oval pads</description>
 <junction x="-93.98" y="2.54"/>
 </segment>
 <segment>
-<pinref part="RFRE" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="-53.34" y1="109.22" x2="-53.34" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="RFRT" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="-53.34" y1="111.76" x2="-53.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="111.76" x2="-35.56" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="111.76" x2="-35.56" y2="109.22" width="0.1524" layer="91"/>
@@ -3824,15 +3824,15 @@ Big oval pads</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LFRE" gate="G$1" pin="1"/>
-<pinref part="LFE" gate="G$1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="-101.6" y1="101.6" x2="-101.6" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FLS" class="0">
 <segment>
-<pinref part="LFRT" gate="G$1" pin="1"/>
-<pinref part="LFT" gate="G$1" pin="C"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
 <wire x1="-88.9" y1="101.6" x2="-88.9" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="96.52" x2="-88.9" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="96.52" x2="-81.28" y2="96.52" width="0.1524" layer="91"/>
@@ -3848,8 +3848,8 @@ Big oval pads</description>
 </net>
 <net name="FRS" class="0">
 <segment>
-<pinref part="RFT" gate="G$1" pin="C"/>
-<pinref part="RFRT" gate="G$1" pin="1"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="88.9" x2="-35.56" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="93.98" x2="-35.56" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="93.98" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
@@ -3865,15 +3865,15 @@ Big oval pads</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="RFRE" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-53.34" y1="99.06" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="RFE" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="RS" class="0">
 <segment>
-<pinref part="RSRT" gate="G$1" pin="1"/>
-<pinref part="RST" gate="G$1" pin="C"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="LED9" gate="G$1" pin="C"/>
 <wire x1="-30.48" y1="-7.62" x2="-30.48" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="-10.16" x2="-30.48" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="-10.16" x2="-22.86" y2="-10.16" width="0.1524" layer="91"/>
@@ -3888,8 +3888,8 @@ Big oval pads</description>
 </net>
 <net name="LS" class="0">
 <segment>
-<pinref part="LST" gate="G$1" pin="C"/>
-<pinref part="LSRT" gate="G$1" pin="1"/>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="-78.74" y1="-17.78" x2="-78.74" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-12.7" x2="-78.74" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-12.7" x2="-71.12" y2="-12.7" width="0.1524" layer="91"/>
@@ -3904,45 +3904,45 @@ Big oval pads</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="FBJT" gate="G$1" pin="B"/>
-<pinref part="FBJTR" gate="G$1" pin="2"/>
+<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="68.58" x2="-109.22" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="RST" gate="G$1" pin="A"/>
+<pinref part="LED9" gate="G$1" pin="A"/>
 <wire x1="-30.48" y1="-22.86" x2="-30.48" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="RSE" gate="G$1" pin="C"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="-30.48" y1="-25.4" x2="-48.26" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-25.4" x2="-48.26" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-25.4" x2="-48.26" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="-48.26" y="-25.4"/>
 <wire x1="-48.26" y1="-35.56" x2="-83.82" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-35.56" x2="-83.82" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="LSE" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="-93.98" y1="-35.56" x2="-93.98" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="LST" gate="G$1" pin="A"/>
+<pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="-93.98" y1="-33.02" x2="-93.98" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="-27.94" x2="-93.98" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-25.4" x2="-78.74" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-27.94" x2="-93.98" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-93.98" y="-27.94"/>
-<pinref part="SBJT" gate="G$1" pin="C"/>
+<pinref part="T4" gate="G$1" pin="C"/>
 <wire x1="-83.82" y1="-33.02" x2="-93.98" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="-93.98" y="-33.02"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="SBJT" gate="G$1" pin="B"/>
+<pinref part="T4" gate="G$1" pin="B"/>
 <wire x1="-99.06" y1="-40.64" x2="-109.22" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="SBJTR" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SIDE_EN" class="0">
 <segment>
-<pinref part="SBJTR" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-119.38" y1="-40.64" x2="-121.92" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-121.92" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -3954,22 +3954,22 @@ Big oval pads</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="FBJT" gate="G$1" pin="C"/>
-<pinref part="LFE" gate="G$1" pin="C"/>
+<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="LED7" gate="G$1" pin="C"/>
 <wire x1="-101.6" y1="78.74" x2="-101.6" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="78.74" x2="-101.6" y2="78.74" width="0.1524" layer="91"/>
 <junction x="-96.52" y="78.74"/>
 <wire x1="-96.52" y1="78.74" x2="-96.52" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="76.2" x2="-96.52" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="78.74" x2="-96.52" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="LFT" gate="G$1" pin="A"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="-88.9" y1="81.28" x2="-88.9" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="76.2" x2="-58.42" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="76.2" x2="-58.42" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-96.52" y="76.2"/>
-<pinref part="RFE" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="-53.34" y1="73.66" x2="-53.34" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="RFT" gate="G$1" pin="A"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 <wire x1="-53.34" y1="76.2" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="76.2" x2="-35.56" y2="81.28" width="0.1524" layer="91"/>
@@ -3985,7 +3985,7 @@ Big oval pads</description>
 <label x="2.54" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="FBJTR" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-119.38" y1="68.58" x2="-121.92" y2="68.58" width="0.1524" layer="91"/>
 <label x="-121.92" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
